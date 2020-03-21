@@ -20,30 +20,48 @@ import yunPic from "./assets/images/yun-3rd.jpg"
 
 const picsArray = [ryuPic, akumaPic, alexPic, chunnyPic, dudleyPic, elenaPic, gillPic, hugoPic, ibukiPic, kenPic, makotoPic, remyPic, seanPic, urienPic, yangPic, yunPic];
 
-function App() {
-  return (
-    <div>
-      <div class="ui top fixed borderless blue massive three item inverted menu">
-        <a class="header active item" href="/">Javits' Clicky Game</a>
-        <div class="item">Nice Guess!</div>
-        <div class="item">Score: 0 || Top Score: 0</div>
-      </div>
-      <div class="ui placeholder segment">
-        <div class="ui icon header">
-          Clicky Game!<br />
-          Click on an image to earn points, but don't click on any more than once!
+
+
+class App extends React.Component {
+
+  state = {
+    score: 0,
+    topScore: 0,
+    clicked: {},
+  }
+
+  handleClick = event => {
+    console.log(event)
+    this.setState({clicked: {[event.target.id]: true}})
+  }
+
+  render() {
+    const {score, topScore} = this.state;
+    return (
+      <div>
+        <div className="ui top fixed borderless blue massive three item inverted menu">
+          <a className="header active item" href="/">Javits' Clicky Game</a>
+          <div className="item">Nice Guess!</div>
+          <div className="item">Score: {score} || Top Score: {topScore}</div>
+        </div>
+        <div className="ui placeholder segment">
+          <div className="ui icon header">
+            Clicky Game!<br />
+            Click on an image to earn points, but don't click on any more than once!
+          </div>
+        </div>
+        <div className="ui container four cards">
+          {picsArray.map((pic, index) => <Image  handleClick={this.handleClick} id={index} key={index} pic={pic} />)}
+        </div>
+        <div className="ui borderless blue massive one item inverted menu">
+          <div className="item">
+            We await your return, warrior.
+          </div>
         </div>
       </div>
-      <div class="ui container four cards">
-        {picsArray.map( pic => <Image pic={pic}/>)}
-      </div>
-      <div class="ui borderless blue massive one item inverted menu">
-        <div class="item">
-          We await your return, warrior.
-        </div>
-      </div>
-    </div>
-  );
+    );
+  }
+
 }
 
 export default App;
