@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/javits-clicky-game/static/css/main.d1b05096.chunk.css",
+    "main.js": "/javits-clicky-game/static/js/main.45e9b162.chunk.js",
+    "main.js.map": "/javits-clicky-game/static/js/main.45e9b162.chunk.js.map",
+    "runtime-main.js": "/javits-clicky-game/static/js/runtime-main.ccaa6d40.js",
+    "runtime-main.js.map": "/javits-clicky-game/static/js/runtime-main.ccaa6d40.js.map",
+    "static/js/2.2113d3b7.chunk.js": "/javits-clicky-game/static/js/2.2113d3b7.chunk.js",
+    "static/js/2.2113d3b7.chunk.js.map": "/javits-clicky-game/static/js/2.2113d3b7.chunk.js.map",
+    "index.html": "/javits-clicky-game/index.html",
+    "precache-manifest.40cc8ff062816129b2895ff7f04a122f.js": "/javits-clicky-game/precache-manifest.40cc8ff062816129b2895ff7f04a122f.js",
+    "service-worker.js": "/javits-clicky-game/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/javits-clicky-game/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.2113d3b7.chunk.js.LICENSE.txt": "/javits-clicky-game/static/js/2.2113d3b7.chunk.js.LICENSE.txt",
+    "static/media/akuma-3rd.jpg": "/javits-clicky-game/static/media/akuma-3rd.1b8f0876.jpg",
+    "static/media/alex-3rd.jpg": "/javits-clicky-game/static/media/alex-3rd.b248fca0.jpg",
+    "static/media/chunny-3rd.jpg": "/javits-clicky-game/static/media/chunny-3rd.c4e5ce6d.jpg",
+    "static/media/dudley-3rd.jpg": "/javits-clicky-game/static/media/dudley-3rd.a5aafc6e.jpg",
+    "static/media/elena-3rd.jpg": "/javits-clicky-game/static/media/elena-3rd.9326e9c8.jpg",
+    "static/media/gill-3rd.jpg": "/javits-clicky-game/static/media/gill-3rd.74c929a4.jpg",
+    "static/media/hugo-3rd.jpg": "/javits-clicky-game/static/media/hugo-3rd.3a102b2f.jpg",
+    "static/media/ibuki-3rd.jpg": "/javits-clicky-game/static/media/ibuki-3rd.64e4be92.jpg",
+    "static/media/ken-3rd.jpg": "/javits-clicky-game/static/media/ken-3rd.60ceb93a.jpg",
+    "static/media/makoto-3rd.jpg": "/javits-clicky-game/static/media/makoto-3rd.eb8ac238.jpg",
+    "static/media/remy-3rd.jpg": "/javits-clicky-game/static/media/remy-3rd.3a05a816.jpg",
+    "static/media/ryu-3rd.jpg": "/javits-clicky-game/static/media/ryu-3rd.37d78445.jpg",
+    "static/media/sean-3rd.jpg": "/javits-clicky-game/static/media/sean-3rd.66e5499d.jpg",
+    "static/media/urien-3rd.jpg": "/javits-clicky-game/static/media/urien-3rd.d0848d63.jpg",
+    "static/media/yang-3rd.jpg": "/javits-clicky-game/static/media/yang-3rd.9286a7fd.jpg",
+    "static/media/yun-3rd.jpg": "/javits-clicky-game/static/media/yun-3rd.d5eff9b2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccaa6d40.js",
+    "static/js/2.2113d3b7.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.45e9b162.chunk.js"
+  ]
+}
